@@ -1,0 +1,32 @@
+{
+  "name": "samsocial",
+  "version": "1.0.0",
+  "description": "A decentralized social network, basically a minimalist, JS Mastodon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparksammy/samsocial.git"
+  },
+  "keywords": [
+    "social",
+    "social",
+    "network",
+    "nodejs"
+  ],
+  "author": "Samuel Lord",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sparksammy/samsocial/issues"
+  },
+  "homepage": "https://github.com/sparksammy/samsocial#readme",
+  "dependencies": {
+    "cryptr": "^6.0.2",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "quick.db": "^7.1.3",
+    "xss": "^1.0.9"
+  }
+}
